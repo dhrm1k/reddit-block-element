@@ -1,0 +1,16 @@
+{
+  "name": "chat-killer",
+  "version": "1.0",
+  "description": "Remove the chat element from reddit web app.",
+  "permissions": ["activeTab"],
+    "content_scripts":[
+    {
+     "matches":["https://old.reddit.com/"],
+           "js": ["popup.js"]
+
+    }
+  ],
+
+     
+  "manifest_version": 2
+}
